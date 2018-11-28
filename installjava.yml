@@ -2,6 +2,7 @@
 - name:  Install JBoss
   vars:
     jboss_eap_rhel_hosts: servera
+    rhsm_subscribe_host: false
   hosts: "{{ jboss_eap_rhel_hosts }}" 
   # become_user: 
   become: true

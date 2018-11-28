@@ -18,7 +18,7 @@
 #     - name: Attach to pool
 #       command: subscription-manager attach --pool="{{ rh_poolid }}"
 #       ignore_errors: yes
-#  when: rhsm_subscribe_host|bool
+  when: rhsm_subscribe_host|bool
 
 - name: Disable All RHEL Repositories
   command: "subscription-manager repos --disable=*"
