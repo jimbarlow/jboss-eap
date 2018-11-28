@@ -1,0 +1,1 @@
+servera ansible_user=devops become_method=sudo become=true
